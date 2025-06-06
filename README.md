@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![WhatsApp Clone Banner](![image](https://github.com/user-attachments/assets/735c94dd-35c3-4e00-9b62-77bb1d9b7dc1)
+([image](https://github.com/user-attachments/assets/735c94dd-35c3-4e00-9b62-77bb1d9b7dc1)
 )
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
