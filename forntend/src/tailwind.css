@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for chat messages */
+.message {
+  @apply max-w-[75%] mb-4 px-4 py-2 rounded-lg;
+}
+
+.sent {
+  @apply ml-auto bg-blue-500 text-white;
+}
+
+.received {
+  @apply mr-auto bg-gray-200 text-gray-800;
+}
+
+/* Custom styles for call interface */
+.call-controls button {
+  @apply p-3 rounded-full bg-gray-700 text-white hover:bg-gray-600 transition-colors;
+}
+
+.call-controls button.end-call {
+  @apply bg-red-600 hover:bg-red-700;
+}
+
+/* Custom animations */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .message {
+    @apply max-w-[85%];
+  }
+}
+
